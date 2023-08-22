@@ -1,0 +1,22 @@
+{
+    "name": "n1c01ash/simple-logger",
+    "description": "One very simple logger.",
+    "type": "project",
+    "license": "GPL-3.0 or later",
+    "autoload": {
+        "files": [
+            "src/classes/base/class-singleton.php",
+            "src/classes/concrete/class-logger.php"
+        ],
+        "psr-4": {
+            "SimpleLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marko Nikolaš",
+            "email": "marko.nikolas@news.co.uk"
+        }
+    ],
+    "require": {}
+}
